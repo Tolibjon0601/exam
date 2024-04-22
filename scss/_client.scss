@@ -1,0 +1,41 @@
+.klient{
+  margin-top: 120px;
+  background-color: #0b7572;
+}
+.klient_title{
+  padding-top: 32px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 125%;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.client_img_2{
+  display: none;
+}
+
+.client_img_1{
+  display: inline-block;
+  margin-bottom: 32px;
+}
+@media screen and (min-width:768px) {
+  .client_img_1{
+    display: none;
+  }
+  .client_img_2
+  {
+    display: inline-block;
+  }
+  .klient_title{
+    max-width: 200px;
+    font-size: 44px;
+    margin-bottom: 48px;
+  }
+}
+@media screen and (min-width:1100px) {
+ .klient__block{
+  display: flex;
+  padding-top: 85px;
+ justify-content: space-between;
+ }
+}
