@@ -68,7 +68,14 @@ padding: 32px;
   flex-direction: column;
 display: flex;
 padding-top: 40px;
+align-items:start;
 
+}
+.item__title{
+ padding-top: 24px;
+}
+.item__text{
+  padding-bottom: 56px;
 }
 .list__item__img{
   padding: 0;

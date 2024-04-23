@@ -20,14 +20,17 @@ font-weight: 700;
 font-size: 15px;
 line-height: 150%;
 color: #000;
+cursor: pointer;
 
 }
 .line{
   border: 3px solid #ffce50;
   width: 99px;
   height: 0px;
-display: inline-block;
-margin-top: 11px;
+display:inline-block;
+margin-top: 15px;
+
+
 }
 
 .hero_img_1{
@@ -73,6 +76,7 @@ margin-top: 11px;
   .hero__block{
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
   .hero__block__content{
     max-width: 300px;
